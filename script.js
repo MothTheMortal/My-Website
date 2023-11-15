@@ -6,7 +6,7 @@ function dayDifference(xDateStr) {
 
 
 function decideDay() {
-    const studyDay = "2023-11-14"
+    const studyDay = "2023-11-13"
     if (dayDifference(studyDay) % 2 === 0) {
         document.getElementById("displayImg").src = "resources/Study.png"
         document.getElementById("blurImg").style.backgroundImage = "url('resources/Study.png')"
