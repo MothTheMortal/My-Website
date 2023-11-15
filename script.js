@@ -1,7 +1,7 @@
 function dayDifference(xDateStr) {
     const xDate = new Date(xDateStr)
     const today = new Date()
-    return Math.floor((xDate - today) / (1000 * 60 * 60 * 24));
+    return Math.floor((today - xDate) / (1000 * 60 * 60 * 24));
 }
 
 
