@@ -20,4 +20,4 @@ function decideDay() {
     }
 }
 
-decideDay()
+decideDay() 
