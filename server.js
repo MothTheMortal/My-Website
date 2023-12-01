@@ -9,7 +9,7 @@ app.use(express.static(__dirname));
 
 // Define a route for your homepage
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'youtube.html'));
 });
 
 app.listen(port, () => {
