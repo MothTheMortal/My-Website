@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <script src="script.js"></script>
         <link rel="stylesheet" href="styles/video.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/general.css">
@@ -20,8 +21,8 @@
                 <a href="https://youtube.com"><img class="youtube-logo" src="icon/youtube-logo.svg"></a>
             </div>
             <div class="middle-section">
-                <input type="text" class="search-bar" placeholder="Search">
-                <button class="search-button">
+                <input type="text" class="search-bar" placeholder="Search" id="search-input">
+                <button class="search-button" onclick="searchYoutube()">
                     <img class="search" src="icon/search.svg">
                     <span class="tooltip">Search</span>
                 </button>
